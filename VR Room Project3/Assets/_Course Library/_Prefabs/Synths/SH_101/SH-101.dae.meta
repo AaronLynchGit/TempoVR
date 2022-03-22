@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 526308ed2c59504489b925ef449762a8
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Orange
+    second: {fileID: 2100000, guid: e2c75381ef721f14c8c0b12bde908edb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x
+    second: {fileID: 2100000, guid: aa13fbe436b42e44cb7641e2cb9b09f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_0
+    second: {fileID: 2100000, guid: 22defc835a0f71643859ce3926e106bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_1
+    second: {fileID: 2100000, guid: 024a0cbf56989374d995b845ddd5f663, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_10
+    second: {fileID: 2100000, guid: e6a5e44310c3d8840a828ece779847b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_11
+    second: {fileID: 2100000, guid: 7c57a59c871d6ca42ac37a63a7d19869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_12
+    second: {fileID: 2100000, guid: d43e057ed6704b24aaae5e9b59588004, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_13
+    second: {fileID: 2100000, guid: e20aca7dd3d7a684db4ce1a1e5a7cd8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_14
+    second: {fileID: 2100000, guid: 29f1deba0094ed244b6efb36c8868cba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_15
+    second: {fileID: 2100000, guid: 67839fc18163cf644939a702dd7ae281, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_16
+    second: {fileID: 2100000, guid: a55b49d9ac81d1d4fae647f156a8cfa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_17
+    second: {fileID: 2100000, guid: 338307dab98b64b46855293b4a83f532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_18
+    second: {fileID: 2100000, guid: 1276a671786c21d4bb62b9908523652b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_19
+    second: {fileID: 2100000, guid: e7fea9264d0e30a4ebb81fb21ac269c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_2
+    second: {fileID: 2100000, guid: d220cc0937772f44e80704403a84c61b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_20
+    second: {fileID: 2100000, guid: a17350a4036c73c4fa0c2e22de362cfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_21
+    second: {fileID: 2100000, guid: 7bd35824fbb72ba488a3a4f085f5da6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_22
+    second: {fileID: 2100000, guid: 7c397a3b1c94e804c9935bca8300ec83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_23
+    second: {fileID: 2100000, guid: b504261c438525246aaf31791a27f0aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_24
+    second: {fileID: 2100000, guid: d5c965de9766f3643a4bf3f8b3febbfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_25
+    second: {fileID: 2100000, guid: 4b125d06a7384f84bb6f985830169695, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_26
+    second: {fileID: 2100000, guid: 168bc4f69a911724eac8c7d204497481, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_27
+    second: {fileID: 2100000, guid: cb16f47b8368fab43ba6869e2e235ae8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_28
+    second: {fileID: 2100000, guid: ce34b4192cd4d9f40ada089628b35fa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_29
+    second: {fileID: 2100000, guid: 6a9d545b1dd3c434a9674542cdc068db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_3
+    second: {fileID: 2100000, guid: 404497223aaca9946b071f58171a5e1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_30
+    second: {fileID: 2100000, guid: 09e3e8db151aeae458b7a45d9c62b300, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_31
+    second: {fileID: 2100000, guid: 373d13be7f0f0ab44abd7bc3e1341e2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_32
+    second: {fileID: 2100000, guid: b0d1f2c1666c6c84e89864db8505eeb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_33
+    second: {fileID: 2100000, guid: a1fd6dd3b401a2049b22ad519f3ed942, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_34
+    second: {fileID: 2100000, guid: cd40905b1275d7b4f9d546debdee401a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_35
+    second: {fileID: 2100000, guid: 0b0023cf2f9d32346a8992eab80f55a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_36
+    second: {fileID: 2100000, guid: 595eb3022ad72aa45a362414eaf2caaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_37
+    second: {fileID: 2100000, guid: f409b7ccf157eae4f8b72f12bcb0cd45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_38
+    second: {fileID: 2100000, guid: aad88f16c16176143b47699a1b2fd49a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_39
+    second: {fileID: 2100000, guid: 00a0cf9cc721fd64a8c24e0c8f9450bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_4
+    second: {fileID: 2100000, guid: b1e794eb7f3766e4bb7169b441e42b91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_40
+    second: {fileID: 2100000, guid: 7ffd9fd5c598ce14c90f5f64b49c506d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_41
+    second: {fileID: 2100000, guid: e3c5c2ed5d5c2ab4392a3097f2eeb884, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_5
+    second: {fileID: 2100000, guid: a187ef62a31c0804a9ac702c6892b743, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_6
+    second: {fileID: 2100000, guid: 756e13d3366336d498ab8cb06ac13b25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_8
+    second: {fileID: 2100000, guid: 1916e1095a6e7a547812c294ef80b8c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roland_SH-101x_9
+    second: {fileID: 2100000, guid: 6dadeaaa6ca6bd54085b6547793b918e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Charcoal_
+    second: {fileID: 2100000, guid: 276157b4b3b75c24d912eb87b8049744, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __White_
+    second: {fileID: 2100000, guid: e5ee669509264a54882db15fe1b702ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green
+    second: {fileID: 2100000, guid: a31692fa3984eb24c834a3ac2507e0d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 1c592edbd37c28146ba3d1160ee48ec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_7
+    second: {fileID: 2100000, guid: c5f3341ee3597b5448465ed044417fd2, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
