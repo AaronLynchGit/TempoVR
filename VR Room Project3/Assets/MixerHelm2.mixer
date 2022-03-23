@@ -20,6 +20,14 @@ AudioMixerController:
     name: Synth1Volume
   - guid: 1e114a44f7726094ca8c0f80e84c2a0c
     name: Synth1Cutoff
+  - guid: 07b888af21d09924490e00093c8d41bb
+    name: Synth1Res
+  - guid: 49340107c6c492646a3ae8746ee13fc8
+    name: Synth1Reverb
+  - guid: c7dbd9fdd6e675844b263b85132a58db
+    name: Osc1transpose
+  - guid: 358134e0d83897d4786bdf71e7f10c29
+    name: Osc2transpose
   m_AudioMixerGroupViews:
   - guids:
     - bae62e5aa112fb444831de4528458dd2
@@ -224,7 +232,7 @@ AudioMixerSnapshotController:
     3d36347fe71906f47b2e5d00ffc2082b: 1
     f2d8e67f1bb788544a0ad4dbf071941a: 0
     9ad9087fd1a80c1418954441a47773ff: 0
-    07b888af21d09924490e00093c8d41bb: 0.34666666
+    07b888af21d09924490e00093c8d41bb: 0.35
     dcb21fbf3ab627b429b2e7108f27a4e6: 0
     c3d66ccf40a56454bad0e737a58b043f: 2
     e94c3dcf56baf8f478587f6362cd1593: 0
