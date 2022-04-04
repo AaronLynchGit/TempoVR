@@ -90,6 +90,8 @@ AudioMixerController:
   m_EnableSuspend: 1
   m_UpdateMode: 0
   m_ExposedParameters:
+  - guid: 04dd80999aab192419167def0d89673d
+    name: Synth1Volume
   - guid: 2b4034938ec4e414ca379ea64a43d304
     name: DrumDelay
   - guid: 87051e187768db2419c9e67fdf1283af
