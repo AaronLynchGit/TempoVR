@@ -426,6 +426,8 @@ AudioMixerController:
   m_EnableSuspend: 1
   m_UpdateMode: 0
   m_ExposedParameters:
+  - guid: 11b062e0f762cff4a8314692451c428d
+    name: Synth1Volume
   - guid: df2dc30fbccf6fd48b3f3c955f8b9a42
     name: Synth1Cutoff
   m_AudioMixerGroupViews:
