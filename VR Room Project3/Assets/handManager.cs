@@ -30,7 +30,7 @@ public class handManager : MonoBehaviour
         spawnedHandModel = Instantiate(handModelPrefab, transform);
         spawnedClosedHand = Instantiate(handModelClosed, transform);
         spawnedHandModel.SetActive(true);
-        spawnedClosedHand.SetActive(false);
+        spawnedClosedHand.SetActive(true);
     }
 
     // Update is called once per frame
@@ -40,6 +40,7 @@ public class handManager : MonoBehaviour
         {
             spawnedHandModel.SetActive(true);
             spawnedClosedHand.SetActive(false);
+            
         }
         else if(!handBool)
         {
