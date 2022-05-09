@@ -52,6 +52,8 @@ AudioMixerController:
     name: Synth1DelayFreq
   - guid: 2bbd084ed7f029b4bb25b05174430a7f
     name: Synth1Cutoff
+  - guid: 6f897111dcb1b804199b81de9a2d6b33
+    name: Synth1ReverbFeed
   m_AudioMixerGroupViews:
   - guids:
     - 7462d91ca9af52f4c8ee4550136d9cc6

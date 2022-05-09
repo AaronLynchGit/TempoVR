@@ -8,7 +8,8 @@ public class filterControlTest : MonoBehaviour, IDial
     
     public AudioMixer masterMixer;
     public GameObject dialType;
-
+    
+    public AudioHelm.HelmController helmController;
     public void DialChanged(float dialvalue)
     {
         //Debug.Log(dialvalue);
@@ -17,9 +18,15 @@ public class filterControlTest : MonoBehaviour, IDial
         var requiredFilterPercentage = (dialvalue / 360f) *100f;
         var ResPercentage = dialvalue / 360f;
 
+        float delayVal;
+        float testVar2;
+        
+
         var filterFlip = 100f;
         var osc1Value = -36.0f;
         var osc2Value = 0.0f;
+
+        var testVar = 0.0f;
 
         if(dialType.name == "FilterID")
         {
@@ -30,13 +37,42 @@ public class filterControlTest : MonoBehaviour, IDial
         {
             masterMixer.SetFloat("Synth1Res", requiredFilterPercentage);
         }
+        else if(dialType.name == "FreqID")
+        {
+            //masterMixer.SetFloat("Synth1Res", requiredFilterPercentage);
+            helmController.SetParameterPercent(AudioHelm.Param.kResonance, ResPercentage);
+        }
+        else if(dialType.name == "NewFilterID")
+        {
+            //masterMixer.SetFloat("Synth1Res", requiredFilterPercentage);
+            helmController.SetParameterPercent(AudioHelm.Param.kFilterCutoff,ResPercentage);
+        }
+        else if(dialType.name == "SubID")
+        {
+            //masterMixer.SetFloat("Synth1Res", requiredFilterPercentage);
+            helmController.SetParameterPercent(AudioHelm.Param.kNoiseVolume,ResPercentage);
+        }
         else if(dialType.name == "ReverbID")
         {
             masterMixer.SetFloat("Synth1Reverb", ResPercentage);
         }
+        else if(dialType.name == "delayID")
+        {
+            //2.5 times seems to be sweet spot for in time
+            delayVal = requiredFilterPercentage * 5f;
+            masterMixer.SetFloat("Synth1Delay", delayVal);
+        }
+        else if(dialType.name == "GateID")
+        {
+            masterMixer.SetFloat("Synth1Gate", ResPercentage);
+           // Debug.Log("GateTest:"+ ResPercentage);
+           Debug.Log("GateTest:"+ masterMixer.GetFloat("Synth1Gate",out testVar2));
+        }
         else if(dialType.name == "OctID")
         {
-            if(requiredFilterPercentage == 0.0f || requiredFilterPercentage < 15.0f)
+
+            Debug.Log("OctTest:"+ requiredFilterPercentage);
+            if(requiredFilterPercentage < 18f)
             {
                 //0%
                 osc1Value = -36.0f;
@@ -45,7 +81,7 @@ public class filterControlTest : MonoBehaviour, IDial
                 masterMixer.SetFloat("Osc1transpose", osc1Value);
                 masterMixer.SetFloat("Osc2transpose", osc2Value);
             }
-            else if(requiredFilterPercentage > 15.0f || requiredFilterPercentage < 25.0f)
+            else if(requiredFilterPercentage > 19f && dialvalue < 38f)
             {
                 //20%
                 osc1Value = -24.0f;
@@ -54,7 +90,7 @@ public class filterControlTest : MonoBehaviour, IDial
                 masterMixer.SetFloat("Osc1transpose", osc1Value);
                 masterMixer.SetFloat("Osc2transpose", osc2Value);
             }
-            else if(requiredFilterPercentage > 25.0f || requiredFilterPercentage < 45.0f)
+            else if(dialvalue > 39f && dialvalue < 59f)
             {
                 //40%
                 osc1Value = -12.0f;
@@ -63,24 +99,7 @@ public class filterControlTest : MonoBehaviour, IDial
                 masterMixer.SetFloat("Osc1transpose", osc1Value);
                 masterMixer.SetFloat("Osc2transpose", osc2Value);
             }
-            else if(requiredFilterPercentage > 55.0f || requiredFilterPercentage < 65.0f)
-            {
-                //60%
-                osc1Value = 0.0f;
-                osc2Value = 24.0f;
-
-                masterMixer.SetFloat("Osc1transpose", osc1Value);
-                masterMixer.SetFloat("Osc2transpose", osc2Value);
-            }
-            else if(requiredFilterPercentage > 75.0f || requiredFilterPercentage < 95.0f)
-            {
-                //80%
-                osc1Value = 12.0f;
-                osc2Value = 24.0f;
-
-                masterMixer.SetFloat("Osc1transpose", osc1Value);
-                masterMixer.SetFloat("Osc2transpose", osc2Value);
-            }
+            
             else
             {
                 // osc1Value = -36.0f;
@@ -95,7 +114,7 @@ public class filterControlTest : MonoBehaviour, IDial
         {
             Debug.Log("No Match");
         }
-    	
+    	Debug.Log("OctTest2:"+ masterMixer.GetFloat("Osc1transpose",out testVar));
 
         // Debug.Log($"percentage power {requiredLightPercentage}");
 
