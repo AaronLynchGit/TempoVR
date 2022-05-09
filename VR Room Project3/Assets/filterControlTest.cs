@@ -110,6 +110,64 @@ public class filterControlTest : MonoBehaviour, IDial
             }
             
         }
+
+        //*****Here i will put my drum delay controls*****
+
+        else if(dialType.name == "kickID")
+        {
+            delayVal = requiredFilterPercentage * 5f;
+            masterMixer.SetFloat("kickDelay", delayVal);
+        }
+        else if(dialType.name == "kickFilterID")
+        {
+            delayVal = requiredFilterPercentage * 25f;
+            masterMixer.SetFloat("kickFilter", delayVal);
+        }
+
+        else if(dialType.name == "hatID")
+        {
+            delayVal = requiredFilterPercentage * 10f;
+            masterMixer.SetFloat("hatDelay", delayVal);
+        }
+        else if(dialType.name == "hatFilterID")
+        {
+            delayVal = requiredFilterPercentage * 25f;
+            masterMixer.SetFloat("hatFilter", delayVal);
+        }
+
+        else if(dialType.name == "clapID")
+        {
+            delayVal = requiredFilterPercentage * 10f;
+            masterMixer.SetFloat("clapDelay", delayVal);
+        }
+        else if(dialType.name == "clapFilterID")
+        {
+            delayVal = requiredFilterPercentage * 25f;
+            masterMixer.SetFloat("clapFilter", delayVal);
+        }
+
+        else if(dialType.name == "symbolID")
+        {
+            delayVal = requiredFilterPercentage * 10f;
+            masterMixer.SetFloat("symbolDelay", delayVal);
+        }
+        else if(dialType.name == "symbolFilterID")
+        {
+            delayVal = requiredFilterPercentage * 25f;
+            masterMixer.SetFloat("symbolFilter", delayVal);
+        }
+
+        else if(dialType.name == "snareID")
+        {
+            delayVal = requiredFilterPercentage * 10f;
+            masterMixer.SetFloat("snareDelay", delayVal);
+        }
+        else if(dialType.name == "snareFilterID")
+        {
+            delayVal = requiredFilterPercentage * 25f;
+            masterMixer.SetFloat("snareFilter", delayVal);
+        }
+
         else
         {
             Debug.Log("No Match");
